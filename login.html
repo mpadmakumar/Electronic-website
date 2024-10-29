@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kumar Electronics</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+
+    <header>
+        <marquee class="head">WELCOME TO OUR SHOP</marquee>
+        <nav id="nav">
+          <h1 id="h1"><span>K</span>umar <span>E</span>Lectronics</h1>
+          <ul id="ul-1">
+            <a href="./index.html"><li>Home</li></a>
+            <a href="./product.html"><li>Product</li></a>
+            <select id="select">
+                <option>Category</option>
+                <option>Samrt Phone</option>
+                <option>Moblie Phone</option>
+                <option>Ac</option>
+                <option>Samrt Watch</option>
+                <option>Laptop</option>
+                <option>Headphone</option>
+                <option>PC Moniter</option>
+                <option>Fridge</option>
+                <option>Cameras</option>
+            </select>
+            <a href="./about.html"><li>About</li></a>
+            <a href="./contact.html"><li>contact</li></a>
+          </ul>
+          <ul id="ul-2">
+            <a><button id="lbtn">Login</button></a>
+            <a href="./register.html"><button id="lbtn">Rigester</button></a>
+          </ul>
+          <div class="sidebar" >
+            <i class="fa-solid fa-bars" onclick="opennav()"></i>
+        </div>
+        </nav>
+        <input type="text" placeholder="Search" id="sinp"><input type="button" value="Search" id="sbtn">
+                <!-- side nav bar -->
+                <div id="sidenav">
+                    <div class="mark">
+                      <i class="fa-solid fa-xmark" onclick="closenav()"></i>
+                  </div>
+                    <ul id="ul-1">
+                      <a><li>Home</li></a>
+                      <a href="./product.html"><li>Product</li></a>
+                      <a href="./about.html"><li>About</li></a>
+                      <a href="./contact.html"><li>contact</li></a>
+                    </ul>
+                    <ul id="ul-2">
+                      <a href="./login.html"><button id="lbtn">Login</button></a>
+                      <a href="./register.html"><button id="lbtn">Rigester</button></a>
+                    </ul>
+                      
+                  </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <div class="text">
+                <h2>Welcome Back!</h2>
+            </div>
+            <div class="alogin">
+                <h1 class="acc">Account login</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.Neque,sequl. </p><br><br>
+                <input type="text" placeholder="User Name" class="un"><br><br>
+                <input type="Password" placeholder="Password" class="un"><br><br>
+                <button class="login">LOGIN</button><br>
+                <p>Forgot Password <a href="">Click</a></p>
+
+            </div>
+        </div>
+    </section>
+</body>
+<script src="./sidenav.js"></script>
+</html>
