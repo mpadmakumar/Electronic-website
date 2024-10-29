@@ -639,6 +639,7 @@ u{
         flex-grow:1;
         height: 150px;
         width: 150px;
+        margin-bottom: 30px;
     }
     .container-3 h1{
         font-size: 25px;
@@ -668,25 +669,32 @@ u{
     }
     
     /* footer section */
+
     .fcontainer{
-        flex-wrap: wrap;
+        
+        display: block;
+        justify-content: center;
     }
     .fcontainer .el{
-        margin-left: 20px;
+        margin-left: 60px;
         margin-top: 10px;
     }
     .fcontainer .ul{
-        margin-left: 20px;
+        margin-left: 60px;
+    }
+    .fcontainer .os{
+        margin-left: 60px;
     }
     .fcontainer .osn{
-        margin-left: 20px;
+        margin-left: 60px;
     }
      .fcontainer p{
          font-size: 15px;
          margin-bottom: 5px;
      }
      .fcontainer i{
-        font-size: 27px;
+        font-size: 25px;
+        margin-left: 10px;
      }
     .fp{
         margin-top: 20px;
